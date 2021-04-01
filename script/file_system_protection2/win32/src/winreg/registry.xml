@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<registry>
+    <windows_registry>HKEY_LOCAL_MACHINE\Software\Classes\batfile</windows_registry>
+    <windows_registry>HKEY_LOCAL_MACHINE\Software\Classes\cmdfile</windows_registry>
+    <windows_registry>HKEY_LOCAL_MACHINE\Software\Classes\comfile</windows_registry>
+    <windows_registry>HKEY_LOCAL_MACHINE\Software\Classes\exefile</windows_registry>
+    <windows_registry>HKEY_LOCAL_MACHINE\Software\Classes\piffile</windows_registry>
+    <windows_registry>HKEY_LOCAL_MACHINE\Software\Classes\AllFilesystemObjects</windows_registry>
+    <windows_registry>HKEY_LOCAL_MACHINE\Software\Classes\Directory</windows_registry>
+    <windows_registry>HKEY_LOCAL_MACHINE\Software\Classes\Folder</windows_registry>
+    <windows_registry>HKEY_LOCAL_MACHINE\Software\Classes\Protocols</windows_registry>
+    <windows_registry>HKEY_LOCAL_MACHINE\Software\Policies</windows_registry>
+    <windows_registry>HKEY_LOCAL_MACHINE\Security</windows_registry>
+    <windows_registry>HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer</windows_registry>
+    <windows_registry>HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services</windows_registry>
+    <windows_registry>HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Session Manager\KnownDLLs</windows_registry>
+    <windows_registry>HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\SecurePipeServers\winreg</windows_registry>
+    <windows_registry>HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Run</windows_registry>
+    <windows_registry>HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\RunOnce</windows_registry>
+    <windows_registry>HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\RunOnceEx</windows_registry>
+    <windows_registry>HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\URL</windows_registry>
+    <windows_registry>HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Policies</windows_registry>
+    <windows_registry>HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\Windows</windows_registry>
+    <windows_registry>HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\Winlogon</windows_registry>
+    <windows_registry>HKEY_LOCAL_MACHINE\Software\Microsoft\Active Setup\Installed Components</windows_registry>
+    <!-- <windows_registry>HKEY_CURRENT_USER\Software\CocCoc</windows_registry> -->
+    <!-- <windows_registry>HKEY_CURRENT_USER</windows_registry> -->
+</registry>

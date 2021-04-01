@@ -1,0 +1,44 @@
+[
+    {
+        "index": "1",
+        "cve_id": "CVE-2019-5789",
+        "cve_url": "https://www.cvedetails.com/cve/CVE-2019-5789/",
+        "cwe_id": "190",
+        "cwe_url": "https://www.cvedetails.co//www.cvedetails.com/cwe-details/190/cwe.html",
+        "vulnerability_type": "Exec Code Overflow",
+        "publish_date": "2019-05-23",
+        "update_date": "2019-06-28",
+        "cve_score": "9.3",
+        "access": "Remote",
+        "complexcity": "Medium",
+        "cve_summary": "An integer overflow that leads to a use-after-free in WebMIDI in Google Chrome on Windows prior to 73.0.3683.75 allowed a remote attacker who had compromised the renderer process to execute arbitrary code via a crafted HTML page."
+    },
+    {
+        "index": "2",
+        "cve_id": "CVE-2019-5788",
+        "cve_url": "https://www.cvedetails.com/cve/CVE-2019-5788/",
+        "cwe_id": "190",
+        "cwe_url": "https://www.cvedetails.co//www.cvedetails.com/cwe-details/190/cwe.html",
+        "vulnerability_type": "Exec Code Overflow",
+        "publish_date": "2019-05-23",
+        "update_date": "2019-06-28",
+        "cve_score": "9.3",
+        "access": "Remote",
+        "complexcity": "Medium",
+        "cve_summary": "An integer overflow that leads to a use-after-free in Blink Storage in Google Chrome on Linux prior to 73.0.3683.75 allowed a remote attacker who had compromised the renderer process to execute arbitrary code via a crafted HTML page."
+    },
+    {
+        "index": "3",
+        "cve_id": "CVE-2019-5787",
+        "cve_url": "https://www.cvedetails.com/cve/CVE-2019-5787/",
+        "cwe_id": "416",
+        "cwe_url": "https://www.cvedetails.co//www.cvedetails.com/cwe-details/416/cwe.html",
+        "vulnerability_type": "",
+        "publish_date": "2019-05-23",
+        "update_date": "2019-06-28",
+        "cve_score": "9.3",
+        "access": "Remote",
+        "complexcity": "Medium",
+        "cve_summary": "Use-after-garbage-collection in Blink in Google Chrome prior to 73.0.3683.75 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page."
+    }
+]

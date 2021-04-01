@@ -1,0 +1,36 @@
+2020-08-07 08:54:21|Success|-e|/home/tra_results.txt
+2020-08-07 08:54:27|Success|-d|/home/tra_results_000.enc
+2020-08-07 08:55:56|Success|-e|/home/dungtt/Videos/cryto_demo/kafka123.json
+2020-08-07 08:55:56|Success|-e|/home/dungtt/Videos/cryto_demo/kafka.json
+2020-08-07 08:56:00|Success|-d|/home/dungtt/Videos/cryto_demo/kafka_000.enc
+2020-08-07 08:56:00|Success|-d|/home/dungtt/Videos/cryto_demo/kafka123_000.enc
+2020-08-07 08:58:46|Success|-e|/home/dungtt/Videos/cryto_demo/kafka123.json
+2020-08-07 08:58:46|Success|-e|/home/dungtt/Videos/cryto_demo/kafka.json
+2020-08-07 08:58:54|Success|-d|/home/dungtt/Videos/cryto_demo/kafka_000.enc
+2020-08-07 08:58:54|Success|-d|/home/dungtt/Videos/cryto_demo/kafka123_000.enc
+2020-08-07 08:59:01|Success|-e|/home/dungtt/Videos/cryto_demo/kafka123.json
+2020-08-07 08:59:01|Success|-e|/home/dungtt/Videos/cryto_demo/kafka.json
+2020-08-07 08:59:14|Success|-d|/home/dungtt/Videos/cryto_demo/kafka_000.enc
+2020-08-07 08:59:14|Success|-d|/home/dungtt/Videos/cryto_demo/kafka123_000.enc
+2020-08-07 10:55:07|Success|-e|/home/tra_results.txt
+2020-08-07 11:00:10|Success|-d|/home/tra_results_000.enc
+2020-08-11 08:36:02|Success|-e|//home/ngoc/Downloads/chuyende.zip
+2020-08-11 08:36:13|Success|-d|//home/ngoc/Downloads/chuyende_000.enc
+2020-08-11 08:36:24|Success|-e|//home/ngoc/Downloads/Screenshots/Capture1.PNG
+2020-08-11 08:36:24|Success|-e|//home/ngoc/Downloads/Screenshots/Capture10.PNG
+2020-08-11 08:36:24|Success|-e|//home/ngoc/Downloads/Screenshots/Capture9.PNG
+2020-08-11 08:36:24|Success|-e|//home/ngoc/Downloads/Screenshots/Capture7.PNG
+2020-08-11 08:36:24|Success|-e|//home/ngoc/Downloads/Screenshots/Capture12.PNG
+2020-08-11 08:36:24|Success|-e|//home/ngoc/Downloads/Screenshots/Screenshot (1).png
+2020-08-11 08:36:24|Success|-e|//home/ngoc/Downloads/Screenshots/Screenshot from 2020-05-07 10-50-41.png
+2020-08-11 08:36:24|Success|-e|//home/ngoc/Downloads/Screenshots/Capture6.PNG
+2020-08-11 08:36:24|Success|-e|//home/ngoc/Downloads/Screenshots/Capture4.PNG
+2020-08-11 08:36:24|Success|-e|//home/ngoc/Downloads/Screenshots/Screenshot from 2020-05-07 10-48-17.png
+2020-08-11 08:36:24|Success|-e|//home/ngoc/Downloads/Screenshots/desktop.ini
+2020-08-11 08:36:24|Success|-e|//home/ngoc/Downloads/Screenshots/Capture.PNG
+2020-08-11 08:36:24|Success|-e|//home/ngoc/Downloads/Screenshots/Capture2.PNG
+2020-08-11 08:36:24|Success|-e|//home/ngoc/Downloads/Screenshots/Capture3.PNG
+2020-08-11 08:36:24|Success|-e|//home/ngoc/Downloads/Screenshots/Capture8.PNG
+2020-08-11 08:36:24|Success|-e|//home/ngoc/Downloads/Screenshots/Capture45.PNG
+2021-04-01 10:52:12|Success|-e|/home/dungtt/table
+2021-04-01 10:52:23|Success|-d|/home/dungtt/table_000.enc

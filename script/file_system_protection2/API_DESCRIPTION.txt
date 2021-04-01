@@ -1,0 +1,88 @@
+﻿Win32:
+script: integrity_check.py
+
+Reset CSDL: run script: reset_db.py
+
+Linux:
+script: integrity_check_linux.py
+
+Reset CSDL: run script: reset_db_linux.py
+
+API:
+
+1. Thêm vào danh sách kiểm tra:
+script -i [Đường dẫn tuyệt đối file, thư mục, khóa registry] [Loại đường dẫn]
+
+Loại đường dẫn: 0 - file, 1- thư mục, 2- registry (Trên linux không có 2)
+
+Kết quả in ra dạng json: {"result": true/false, "check_list":[]}
+    result: true- không có lỗi
+            false - có lỗi
+    check_list: danh sách kiểm tra lưu trong csdl, mỗi phần tử dạng:
+        [id, type, path, state, ignore]
+        state = 0: mới thêm vào, chưa quét
+
+2. Thêm vào danh sách kiểm tra thông qua xml
+script -x [đườn dẫn file xml]
+Định dạng file xml:
+xem sample.xml
+Linux không có tag <windows_registry>
+
+Kết quả tương tự 1.
+
+2. Xóa khỏi danh sách kiểm tra
+script -r [Đường dẫn tuyệt đối file, thư mục, khóa registry] [Loại đường dẫn]
+Kết quả tương tự 1.
+
+3. Truy vấn danh sách kiểm tra
+script -l
+
+Kết quả tương tự 1.
+
+4. Truy vấn thông báo
+script -a 
+
+Kết quả in ra dạng json: {"alert_list":alert_list}
+    alert_list: danh sách thông báo lưu trong csdl, đã xắp xếp giảm dần theo thời gian quét,
+    mỗi phần tử dạng:
+        [id, time, mess, path]
+    time: chuỗi thời gian: 'Y-M-D' h:m:s
+    mess: Thông điệp thông báo dạng chuỗi:
+
+        File thêm mới = "The new file add to folder."
+        File thay đổi nội dung = "File is changed."
+        File bị xóa = "File is deleted."
+        
+        Giá trị registry thay đổi = 'Registry value change.'
+        Giá trị registry thêm mới = 'Registry value add.'
+        Giá trị registry bị xóa = 'Registry value deleted.'
+        Khóa registry thêm mới = 'Registry key add.'
+        Khóa registry bị xóa = 'Registry key deleted.'
+    path: đườn dẫn kiểm tra
+
+5. Quét 1 đường dẫn
+script -s [Đường dẫn] [loại đường dẫn]
+
+Kết quả in ra dạng json:
+Nếu có lỗi: {"result": false, "error_msg": err_mess}
+Nếu không có lỗi: {"result": false, "message": {info_dic}}
+
+    result: true- không có lỗi
+    info_dic: dictionary (python) chứa các kết quả tóm lược quá trình quét path
+
+6. Băm file
+
+script -m [Đường dẫn tuyệt đối đến file]
+
+Kết quả in ra dạng json:
+Nếu có lỗi: {"result": true/false, "error_msg": err_mess, "hash_str" = hash_str}
+hash_str: mã băm sha256 của file nếu thành công
+
+7. Truy vấn id của alert mới nhất
+script -e
+Kết quả in ra dạng json:
+Nếu có lỗi: {"last_alert_id": id}
+
+8. Truy vấn danh sách alert từ id trở đi
+script -a id
+Kết quả trả về như 4.

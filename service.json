@@ -1,0 +1,134 @@
+[
+    {
+        "service": "Secure Shell (SSH)",
+        "protocol": "TCP",
+        "port": "22",
+        "i_o": "Input",
+        "target": "ACCEPT"
+    },
+    {
+        "service": " File Transfer Protocol (FTP)",
+        "protocol": "TCP",
+        "port": "20",
+        "i_o": "Input",
+        "target": "ACCEPT"
+
+    },
+    {
+        "service": " File Transfer Protocol (FTP)",
+        "protocol": "TCP",
+        "port": "21",
+        "i_o": "Input",
+        "target": "ACCEPT"
+
+    },
+    {
+        "service": "HTTP",
+        "protocol": "TCP",
+        "port": "80",
+        "i_o": "Input",        
+        "target": "ACCEPT"
+
+    },
+    {
+        "service": "RTSP",
+        "protocol": "TCP",
+        "port": "554",
+        "i_o": "Input",
+        "target": "ACCEPT"
+
+    },
+    {
+        "service": "Telnet",
+        "protocol": "TCP",
+        "port": "23",
+        "i_o": "Input",
+        "target": "ACCEPT"
+
+
+    },
+    {
+        "service": "HTTPS",
+        "protocol": "TCP",
+        "port": "443",
+        "i_o": "Output",
+        "target": "DROP"
+
+    },
+    {
+        "service": "Simple Mail Transfer Protocol (SMTP)",
+        "protocol": "TCP",
+        "port": "25",
+        "i_o": "Input",
+        "target": "ACCEPT"
+
+    },
+    {
+        "service": "Domain Name System (DNS)",
+        "protocol": "TCP",
+        "port": "53",
+        "i_o": "Input",
+        "target": "ACCEPT"
+
+    },
+    {
+        "service": "Network Time Protocol (NTP)",
+        "protocol": "UDP",
+        "port": "123",
+        "i_o": "Input",
+        "target": "ACCEPT"
+
+    },
+    {
+        "service": " Remote Desktop Protocol",
+        "protocol": "TCP",
+        "port": "3389",
+        "target": "ACCEPT"
+    },
+    {
+        "service": " Simple Network Management Protocol (SNMP)",
+        "protocol": "TCP",
+        "port": "161",
+        "i_o": "Input",
+        "target": "ACCEPT"
+    },
+    {
+        "service": " Simple Network Management Protocol (SNMP)",
+        "protocol": "TCP",
+        "port": "162",
+        "i_o": "Input",
+        "target": "ACCEPT"
+
+    },
+    {
+        "service": " Post Office Protocol (POP3)",
+        "protocol": "TCP",
+        "port": "110",
+        "i_o": "Output",
+        "target": "ACCEPT"
+    },
+    {
+        "service": "Network News Transport Protocol (NNTP)",
+        "protocol": "TCP",
+        "port": "119",
+        "i_o": "Input",
+        "target": "ACCEPT"
+
+    },
+    {
+        "service": " Internet Message Access Protocol (IMAP4)",
+        "protocol": "TCP",
+        "port": "143",
+        "i_o": "Input",
+        "target": "ACCEPT"
+
+    },
+    {
+        "service": "SQL Browser",
+        "protocol": "UDP",
+        "port": "1434",
+        "i_o": "Input",
+        "target": "ACCEPT"
+
+    }
+]

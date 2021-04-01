@@ -1,0 +1,4 @@
+threshold: 5
+CPU: 0.9
+thresholdRAM: 0.7
+paranoia: 1

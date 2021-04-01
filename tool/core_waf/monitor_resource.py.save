@@ -1,0 +1,15 @@
+import connect_db
+import psutil
+import time
+
+
+db = connect_db.connect()
+time.sleep(1)
+
+cpu = psutil.cpu_percent()
+ram = psutil.virtual_memory()
+cursor = db.cursor()
+sql = " "
+
+print cpu, ram
+

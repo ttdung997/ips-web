@@ -1,0 +1,5 @@
+def check():
+	print ''
+	print 'Apply Applicable Patches'.center(85,'#')
+	print ''
+	print '[NOTICE] Update to the latest Apache release available according to either of the following:\n1. When building from source: \n\ta. Read	release	notes and related security patch information \n\tb. Download latest source and any dependent modules such as mod_security. \n\tc. Build new Apache software according to your build process with the same configuration options. \n\td. Install and Test the new software according to your organizations testing process. \n\te. Move to production according to your organizations deployment process.\n2. When using platform packages: \n\ta. Read release notes and related security patch information \n\tb. Download and	install	latest available Apache	package	and any dependent software.	\n\tc. Test the new software according to your organizations testing process. \n\td. Move to production according to your organizations deployment process.'
